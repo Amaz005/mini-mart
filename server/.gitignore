@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# js
+/dist
+
+# debug
+yarn-error.log*
+package-lock.json
+.env

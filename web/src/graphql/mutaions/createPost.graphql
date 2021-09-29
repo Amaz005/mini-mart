@@ -1,0 +1,5 @@
+mutation CreatePost ($postInput: PostInput!){
+    createPost(input: $postInput){
+        ...RegularPost
+    }
+}
